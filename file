@@ -1,1 +1,2 @@
-This is test file.
+#!/bin/bash
+echo "this is jenkins shell job test"
