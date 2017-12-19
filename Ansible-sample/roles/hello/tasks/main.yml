@@ -1,0 +1,9 @@
+---
+  - name: print output
+    command: echo "hello"
+    register: result
+
+  - debug: 
+     var: result.stdout
+
+ 
